@@ -1,0 +1,111 @@
+/* eslint-disable quotes */
+import MilestonesIcons from "../../../assets/images/MilestonesIconsLoader";
+
+const initialUserProgress = {
+	stats: {
+		numChaptersCompleted: 0,
+		numBooksCompleted: 0,
+		totalPoints: 0,
+	},
+	milestones: [
+		{
+			title: "First Chapter",
+			completed: false,
+			imageBW: MilestonesIcons["Chapter-BW.png"],
+			imageColor: MilestonesIcons["Chapter-color.png"],
+			description: "Earned after completing your first chapter.",
+			earnedDate: "",
+		},
+		{
+			title: "First Book",
+			completed: false,
+			imageBW: MilestonesIcons["Book-BW.png"],
+			imageColor: MilestonesIcons["Book-color.png"],
+			description: "Earned after completing your first book of the Bible.",
+			earnedDate: "",
+		},
+		{
+			title: "Law",
+			completed: false,
+			imageBW: MilestonesIcons["law-BW.png"],
+			imageColor: MilestonesIcons["law-color.png"],
+			description: `Earned after completing the Law or "Torah", the first five books of the Old Testament:  Genesis, Exodus, Leviticus, Numbers, and Deuteronomy.`,
+			earnedDate: "",
+		},
+		{
+			title: "History",
+			completed: false,
+			imageBW: MilestonesIcons["history-BW.png"],
+			imageColor: MilestonesIcons["history-color.png"],
+			description: `Earned after completing the history books of the Old Testament:  Joshua, Judges, 1 Samuel, 2 Samuel, 1 Kings, and 2 Kings.`,
+			earnedDate: "",
+		},
+		{
+			title: "Poetry",
+			completed: false,
+			imageBW: MilestonesIcons["poetry-BW.png"],
+			imageColor: MilestonesIcons["poetry-color.png"],
+			description: `Earned after completing the poetry books of the Old Testament:  Job, Psalms, Proverbs, Ecclesiastes, and Song of Solomon.`,
+			earnedDate: "",
+		},
+		{
+			title: "Major Prophets",
+			completed: false,
+			imageBW: MilestonesIcons["major-prophets-BW.png"],
+			imageColor: MilestonesIcons["major-prophets-color.png"],
+			description: `Earned after completing the Old Testament's collection of longer prophetical writings:  Isaiah, Jeremiah, Lamentations, Ezekiel, and Daniel.`,
+			earnedDate: "",
+		},
+		{
+			title: "Minor Prophets",
+			completed: false,
+			imageBW: MilestonesIcons["minor-prophets-BW.png"],
+			imageColor: MilestonesIcons["minor-prophets-color.png"],
+			description: `Earned after completing the Old Testament's collection of shorter prophetical writings:  Hosea, Joel, Amos, Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, and Malachi.`,
+			earnedDate: "",
+		},
+		{
+			title: "Old Testament",
+			completed: false,
+			imageBW: MilestonesIcons["OT-BW.png"],
+			imageColor: MilestonesIcons["OT-color.png"],
+			description: `Earned after completing the entire Old Testament! 👏`,
+			earnedDate: "",
+		},
+		{
+			title: "Gospels",
+			completed: false,
+			imageBW: MilestonesIcons["gospels-BW.png"],
+			imageColor: MilestonesIcons["gospels-color.png"],
+			description: `Earned after completing the four books of the New Testament's gospel account:  Matthew, Mark, Luke, and John.`,
+			earnedDate: "9/30/23",
+		},
+		{
+			title: "Paul's Letters",
+			completed: false,
+			imageBW: MilestonesIcons["pauline-epistles-BW.png"],
+			imageColor: MilestonesIcons["pauline-epistles-color.png"],
+			description: `Earned after completing all the letters from the Apostle Paul in the New Testament:  Romans, 1 Corinthians, 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy, 2 Timothy, Titus, and Philemon.`,
+			earnedDate: "9/30/23",
+		},
+		{
+			title: "New Testament",
+			completed: false,
+			imageBW: MilestonesIcons["NT-BW.png"],
+			imageColor: MilestonesIcons["NT-color.png"],
+			description: `Earned after completing all the of the New Testament! 🙌`,
+			earnedDate: "",
+		},
+		{
+			title: "Whole Bible",
+			completed: false,
+			imageBW: MilestonesIcons["WholeBible-BW.png"],
+			imageColor: MilestonesIcons["WholeBible-color.png"],
+			description: `The most prestigious of all milestone awards. 🤩 Earned after completing all the books of the Bible, both Old and New Testaments! 🥳 🎊 🎉`,
+			earnedDate: "",
+		},
+	],
+	recentEarnedMilestones: [],
+};
+
+export default initialUserProgress;
